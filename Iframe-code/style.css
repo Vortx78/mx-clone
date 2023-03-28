@@ -1,0 +1,85 @@
+:root { 
+    --blue-maincolor: #00acee;
+    --lightblue-accent-color: #DBF5FF;
+    --darkblue-accent-color: #0092C9;
+    --bg-color: white;
+    --lightgray-accent-color: #DADADA;
+    --main-font: Arial;
+  }
+  
+  body, h1, h2, h3, h4, p {
+    font: var(--main-font);
+  }
+  
+  button { 
+    color: var(--blue-maincolor);
+    background-color: var(--bg-color);
+    font-size: 1rem;
+  }
+  
+  #holder { 
+    border-color: var(--lightgray-accent-color);
+    border-style: solid;
+    margin: 5% auto 5px auto;
+    text-align: center;
+    padding: 20px;
+    width: 600px;
+    position: relative;
+  }
+  
+  .icon-section{ 
+    display: inline-block;
+    text-align: center;
+  }
+
+  .profile-icon{ 
+    width: 250px;
+  }
+  .iframe-container { 
+    margin-right: 40p;
+    display: inline-block;
+    width: 520px;
+    margin-top: 5%;
+  }
+  #iframe-code { 
+    width: 500px;
+    min-height: 50px;
+    border-width: 0px;
+    font-size: 20px;
+    outline: none;
+    display: block;
+    overflow: hidden;
+    display: block;
+    resize: none;
+  }
+  .bottom {
+    margin-top: 20px auto 20px auto;
+  }
+  
+  #charCount { 
+    position: relative;
+    left: 75px;
+    font-size: 1.2rem;
+    color: var(--blue-maincolor);
+   
+  }
+  #stream-btn {
+    padding: 10px 30px 10px 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    left: 75px;
+    color: white;
+    background-color: var(--blue-maincolor);
+    border-style: none;
+    border-radius: 20px;
+  }
+  
+  #stream-btn:hover { 
+   background-color: var(--darkblue-accent-color);
+  }
+  
+.divider { 
+    color: var(--lightgray-accent-color);
+    border-style: solid none none none;
+  }
